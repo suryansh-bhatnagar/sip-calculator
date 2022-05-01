@@ -1,0 +1,16 @@
+.amtHead{
+    display: inline-block;
+    width: 30vw;
+}
+
+
+@media only screen and (max-width: 700px) {
+    .amtHead{
+        display: inline-block;
+        width: 50vw;
+    }
+    #myChart{
+        width: 300px;
+        height: 300;
+    }
+  }
